@@ -1,5 +1,7 @@
 *{
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .First_Section{
@@ -10,6 +12,7 @@
 .Navbar{
     display: flex;
     flex: auto;
+    padding-top: 20px;
 }
 
 .Left,.Right{
@@ -24,4 +27,48 @@ ul{
     flex:auto;
     gap: 50px;
     list-style-type: none;
+}
+
+.Heading{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.para1{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 63px;
+    padding-top: 5px;
+}
+
+img{
+    width: 400px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.body-left, .body-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -390px;
 }
