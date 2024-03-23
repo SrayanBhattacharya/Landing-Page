@@ -138,3 +138,52 @@ img{
     font-size: 15px;
     padding-left: 500px;
 }
+
+.Fourth_Section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Blue_Box{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    width: 600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.textpart{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.lastbutton{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.FirstPara{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SecondPara{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.buttonpart{
+    display: flex;
+    align-items: center;
+}
