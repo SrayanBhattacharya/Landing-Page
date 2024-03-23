@@ -112,3 +112,29 @@ img{
     text-align: center;
     font-weight: bold;
 }
+
+.Third_Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.Quote{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Para{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.by{
+    font-size: 15px;
+    padding-left: 500px;
+}
