@@ -187,3 +187,16 @@ img{
     display: flex;
     align-items: center;
 }
+
+.Fifth_Section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.lasttext{
+    color: white;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
