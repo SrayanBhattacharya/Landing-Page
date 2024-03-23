@@ -72,3 +72,43 @@ img{
     margin-top: 20px;
     margin-left: -390px;
 }
+
+.SM{
+    width: 150px;
+    border-radius: 20px;
+}
+
+.Second_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ImagePart{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 40px
+}
+
+.heading{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.Tobey, .Andrew, .Tom, .Miles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+.t1{
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
